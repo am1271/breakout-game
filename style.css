@@ -1,0 +1,20 @@
+body {
+    font-family: 'Verdana', Helvetica; 
+    background-color: #1f2937; /*boja oko Canvasa*/
+    /*centriranje Canvasa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden; /*onemogućuje scroll bar*/
+}
+
+/*Canvas*/
+#gameCanvas {
+    width: 800px; /*fiksne dimenzije*/
+    height: 600px;
+    background-color: black;
+    border: 5px solid white;
+    cursor: none;
+}
